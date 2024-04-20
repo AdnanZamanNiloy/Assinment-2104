@@ -15,7 +15,7 @@ int main()
         p.push_back({w, {u, v}});
     }
 
-    sort(p.begin(), p.end());
+    sort(p.begin(), p.end()); // sort edges based on weight
 
     for (auto &edge : p)
     {
